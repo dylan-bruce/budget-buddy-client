@@ -5,7 +5,7 @@ import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import DatePicker from "react-datepicker";
+//import DatePicker from "react-datepicker";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US")
@@ -26,7 +26,7 @@ const Cal = () => {
         localizer={localizer}
         startAccessor="start"
         endAccessor="end"
-        style={{height: 500, margin: "50px"}} 
+        style={{height: 500, width: 750}}
       />
     </div>
   )

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 
 
 import './App.css';
@@ -9,7 +9,6 @@ import Footer from "./layout/footer/Footer";
 import Home from "./layout/home/Home";
 
 function App() {
-
 
 
   return (
@@ -22,9 +21,9 @@ function App() {
           <Route path='/' element={<Home />} />
         </Routes>
       </div>
-      <div className="footer">
+      <>
         <Footer />
-      </div>
+      </>
     </div>
   );
 }

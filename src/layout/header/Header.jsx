@@ -3,7 +3,7 @@ import React from 'react'
 
 import "./Header.css";
 
-const header = () => {
+const Header = () => {
   return (
     <nav className='nav-head'>
         <h1>Budget Buddy</h1>
@@ -12,4 +12,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
