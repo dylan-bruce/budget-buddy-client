@@ -1,22 +1,11 @@
 import React from 'react'
 
+import Cal from "../cal/Cal";
+
 const home = () => {
   return (
     <div>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        
+        <Cal />
     </div>
   )
 }
