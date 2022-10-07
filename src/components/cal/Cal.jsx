@@ -19,7 +19,7 @@ const localizer = dateFnsLocalizer({
   locales
 })
 
-const Cal = () => {
+function Cal() {
   return (
     <div className='cal'>
       <Calendar 

@@ -3,7 +3,7 @@ import React from 'react'
 
 import "./Header.css";
 
-const Header = () => {
+function Header() {
   return (
     <nav className='nav-head'>
         <h1>Budget Buddy</h1>
