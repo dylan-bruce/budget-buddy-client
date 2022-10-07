@@ -6,17 +6,19 @@ import "./BillList.css";
 function BillList({ bills }) {
   return (
     <div className='bill-list'>
-      <div className='bill-list-content'>
-        <ul>
-          {bills.map((bill, index) => (
-            <BillCard
-              bill={bill}
-              index={index}
-              key={index}
-            />
-          ))}
-        </ul>
-      </div>
+      <h4>Expense</h4>
+      <ul>
+        {bills.map((bill, index) => (
+          <BillCard
+            bill={bill}
+            index={index}
+            key={index}
+          />
+        ))}
+      </ul>
+      {/**
+       * Input form to add new Expense
+       */}
     </div>
   )
 }

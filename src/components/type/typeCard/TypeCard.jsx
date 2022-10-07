@@ -4,8 +4,8 @@ import "./TypeCard.css";
 function TypeCard({ bill, billTypes }) {
   return (
     <div className='typecard'>
-        <h3>{bill.name}</h3>
-        <p>{}</p>
+        <h4>{bill.name}</h4>
+        <p>$$ or X%</p>
     </div>
   )
 }

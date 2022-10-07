@@ -26,7 +26,7 @@ function Cal() {
         localizer={localizer}
         startAccessor="start"
         endAccessor="end"
-        style={{height: 500, width: 750}}
+        style={{height: 500, width: 750, padding: ".5rem 1rem .5rem 1rem"}}
       />
     </div>
   )
