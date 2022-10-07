@@ -5,7 +5,6 @@
     margin: 2rem;
     border-radius: 1rem;
     padding: 1rem;
-    
 }
 
 .home > h2 {
@@ -26,6 +25,24 @@
     box-shadow: 0 0 10px 1px #00ace07e;
 }
 
+
+
+
+
+
 alert {
+    margin-top: 2rem;
     color:red;
+    display: block; /* Important to give the content a width */
+
+    width: 100%;
+    transform: translateX(100%); /* Animation start out of the screen */
+
+    /* Add the animation */
+    animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+    to { transform: translateX(-100%); }
 }

@@ -66,18 +66,18 @@ function Home() {
   return (
     <div className='home'>
       <alert>This page is a work in progress.  It is not functional at the moment, and does not display properly on small screens (phone or tablets).</alert>
-        <h2>Overview</h2>
-        <div className="homecontent border">
-            <Cal />
-        </div>
-        <h3>Income and Expense</h3>
-        <div className="homecontent border">
-          <BillList bills={bills} />
-          <IncomeList income={income} />
-        </div>
-        <div className="billtypes">
-          <TypeList bills={bills} />
-        </div>
+      <h2>Overview</h2>
+      <div className="homecontent border">
+          <Cal />
+      </div>
+      <h3>Income and Expense</h3>
+      <div className="homecontent border">
+        <BillList bills={bills} />
+        <IncomeList income={income} />
+      </div>
+      <div className="billtypes">
+        <TypeList bills={bills} />
+      </div>
     </div>
   )
 }
